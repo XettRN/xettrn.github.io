@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Kyle Mettille</title>
+  </head>
+  <body>
+    <div class="top"> 
+      <div>
+        <div class="name-card">
+          <h1>Kyle Mettille</h1>
+          <h2>Software Engineer</h2>
+        </div>
+        <button 
+          class="about-me-button"
+          type="button"
+          onclick="document.getElementById('about-me').scrollIntoView({behavior: 'smooth'})"
+        >
+          ABOUT ME
+        </button>
+      </div>
+      <img class="front-pic" src="frontpic.jpg" alt="front pic" />
+    </div>
+    
+    <div id="about-me" class="about-me">
+      <div>
+        <h1>Hi!</h1>
+        <p>
+          I'm a 22 year old Georgia Tech grad who's passionate in everything computer
+          science related. Over the years, I have expanded my knowledge in software
+          development with my studies along with personal projects.
+          <br/>
+          <br/>
+          Some of my passions include mobile app development, digital design, web dev,
+          and video game development. Some areas I've worked with are encryption, finance,
+          and Arduinos. 
+        </p>
+        <h2>Contact Me</h2>
+        <button onclick="document.location='mailto:kymettille@bellsouth.net'">Email</button>
+        <button onclick="window.open('https://www.linkedin.com/in/kyle-mettille-16b0791ba', '_blank')">LinkedIn</button>
+      </div>
+    </div>
+  </body>
+</html>
