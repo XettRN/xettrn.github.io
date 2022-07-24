@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Kyle Mettille</title>
@@ -17,7 +16,7 @@
         <button 
           class="about-me-button"
           type="button"
-          onclick="document.getElementById('about-me').scrollIntoView({behavior: 'smooth'})"
+          onclick="document.getElementById('about-me').scrollIntoView({behavior: 'smooth', block: 'center'})"
         >
           ABOUT ME
         </button>
@@ -27,7 +26,7 @@
     
     <div id="about-me" class="about-me">
       <div>
-        <h1>Hi!</h1>
+        <h1>Hi! 👋</h1>
         <p>
           I'm a 22 year old Georgia Tech grad who's passionate in everything computer
           science related. Over the years, I have expanded my knowledge in software
@@ -41,6 +40,44 @@
         <h2>Contact Me</h2>
         <button onclick="document.location='mailto:kymettille@bellsouth.net'">Email</button>
         <button onclick="window.open('https://www.linkedin.com/in/kyle-mettille-16b0791ba', '_blank')">LinkedIn</button>
+        <button onclick="window.open('https://github.com/ttexpie', '_blank')">GitHub</button>
+      </div>
+    </div>
+
+    <h1 class="projects-header">Some things I've worked on...</h1>
+    <div class="projects">
+      <div>
+        <h2>Khazaana 📈</h2>
+        <h3>Mobile Investment Tracking App</h3>
+        <p>
+          One of my group projects for a mobile Android app. This app shows a relation
+          between an IFA and their clients, letting them keep track of client assets
+          using realtime stock and crypto pricings APIs.
+        </p>
+        <button onclick="window.open('https://github.com/ttexpie/Khazaana', '_black')">GitHub</button>
+      </div>
+
+      <div>
+        <h2>Space Game! 🚀</h2>
+        <h3>BEECK</h3>
+        <p>
+          Another group project for a 3D platformer game. This was made using Unity and
+          has various elements like stealth, platforming, and collectables. I developed most
+          of the AI and character controllers for the game.
+        </p>
+        <button onclick="window.open('https://github.gatech.edu/kmettille3/BEECK', '_blank')">GitHub</button>
+      </div>
+
+      <div>
+        <h2>Block Battle 🎮</h2>
+        <h3>Tetris React Clone</h3>
+        <p>
+          A personal project that is a classic tetris game made with JavaScript and React.
+          I'm planning on adding more features and modes. You can try it out using the link
+          below.
+        </p>
+        <button onclick="window.open('https://github.com/ttexpie/blockbattle', '_blank')">GitHub</button>
+        <button onclick="window.open('https://ttexpie.github.io/blockbattle/', '_blank')">Play Here!</button>
       </div>
     </div>
   </body>
