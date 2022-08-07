@@ -113,3 +113,31 @@ button:hover {
 button:active {
   opacity: 0.5;
 }
+
+.skillset {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.skillset h1 {
+  text-align: center;
+}
+
+.skillset div {
+  width: 80%;
+  margin: 20px;
+  padding: 1em;
+  border-radius: 30px;
+  box-shadow: 10px 10px #81b9bf;
+  background: #b2ebf2;
+}
+
+.skillset ul {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 30%));
+  font-size: large;
+}
