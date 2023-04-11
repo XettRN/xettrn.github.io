@@ -7,99 +7,132 @@
     <title>Kyle Mettille</title>
   </head>
   <body>
-    <div class="top"> 
-      <div>
-        <div class="name-card">
-          <h1>Kyle Mettille</h1>
-          <h2>Software Engineer</h2>
+    <main>
+      <div class="top"> 
+        <div>
+          <div class="name-card">
+            <h1>Kyle Mettille</h1>
+            <h2>Software Engineer</h2>
+          </div>
+          <button 
+            class="about-me-button"
+            type="button"
+            onclick="document.getElementById('about-me').scrollIntoView({behavior: 'smooth', block: 'center'})"
+          >
+            ABOUT ME
+          </button>
         </div>
-        <button 
-          class="about-me-button"
-          type="button"
-          onclick="document.getElementById('about-me').scrollIntoView({behavior: 'smooth', block: 'center'})"
-        >
-          ABOUT ME
-        </button>
+        <img class="front-pic" src="frontpic.jpg" alt="front pic" />
       </div>
-      <img class="front-pic" src="frontpic.jpg" alt="front pic" />
-    </div>
-    
-    <div id="about-me" class="about-me">
-      <div>
-        <h1>Hi! 👋</h1>
-        <p>
-          I'm a 22 year old Georgia Tech grad who's passionate in everything computer
-          science related. Over the years, I have expanded my knowledge in software
-          development with my studies along with personal projects.
-          <br/>
-          <br/>
-          Some of my passions include mobile app development, digital design, web dev,
-          and video game development. Some areas I've worked with are encryption, finance,
-          and Arduinos. 
-        </p>
-        <h2>Contact Me</h2>
-        <button onclick="document.location='mailto:kymettille@bellsouth.net'">Email</button>
-        <button onclick="window.open('https://www.linkedin.com/in/kyle-mettille-16b0791ba', '_blank')">LinkedIn</button>
-        <button onclick="window.open('https://github.com/ttexpie', '_blank')">GitHub</button>
-      </div>
-    </div>
-
-    <h1 class="projects-header">Some things I've worked on...</h1>
-    <div class="projects">
-      <div>
-        <h2>Khazaana 📈</h2>
-        <h3>Mobile Investment Tracking App</h3>
-        <p>
-          One of my group projects for a mobile Android app. This app shows a relation
-          between an IFA and their clients, letting them keep track of client assets
-          using realtime stock and crypto pricings APIs.
-        </p>
-        <button onclick="window.open('https://github.com/ttexpie/Khazaana', '_black')">GitHub</button>
+      
+      <div id="about-me" class="about-me">
+        <div>
+          <h1>Hi! 👋</h1>
+          <p>
+            I'm a 22 year old Georgia Tech grad who's passionate in everything computer
+            science related. Over the years, I have expanded my knowledge in software
+            development with my studies along with personal projects.
+            <br/>
+            <br/>
+            Some of my passions include mobile app development, digital design, web dev,
+            and video game development. Some areas I've worked with are encryption, finance,
+            and Arduinos.
+            <br/>
+            <br/>
+            One of my favorite activites is game development! You can scroll down to see some of
+            my creations made during game jams!
+          </p>
+          <h2>Contact Me</h2>
+          <button onclick="document.location='mailto:kymettille@bellsouth.net'">Email</button>
+          <button onclick="window.open('https://www.linkedin.com/in/kyle-mettille-16b0791ba', '_blank')">LinkedIn</button>
+          <button onclick="window.open('https://github.com/ttexpie', '_blank')">GitHub</button>
+        </div>
       </div>
 
-      <div>
-        <h2>Space Game! 🚀</h2>
-        <h3>BEECK</h3>
-        <p>
-          Another group project for a 3D platformer game. This was made using Unity and
-          has various elements like stealth, platforming, and collectables. I developed most
-          of the AI and character controllers for the game.
-        </p>
-        <button onclick="window.open('https://github.gatech.edu/kmettille3/BEECK', '_blank')">GitHub</button>
-        <button onclick="window.open('https://youtu.be/hM0J6oUn-7s', '_blank')">Trailer</button>
+      <h1 class="projects-header">Games I've made!</h1>
+      <div class="projects">
+        <div>
+          <h2>Dragon's Servant 🐉</h2>
+          <h3>Godot Wild Jam #54</h3>
+          <p>
+            A top down Zelda-like adventure game made in 9 days. All the code was
+            done by me, and I also created the kobold sprites and CGs.
+          </p>
+          <iframe frameborder="0" src="https://itch.io/embed/1934378?linkback=true&amp;border_width=0&amp;bg_color=e53b44&amp;fg_color=3f2832&amp;link_color=afbfd2&amp;border_color=c14b58" width="550" height="165"><a href="https://xett.itch.io/dragons-servant">Dragon's Servant by xett</a></iframe>
+        </div>
+        
+        <div>
+          <h2>DigiStrider 📱</h2>
+          <h3>Dungeon Crawler Jam 2023</h3>
+          <p>
+            A 2.5D dungeon crawler with turn-based combat made in 7 days. Inspired by 
+            MegaMan Battle Network, Shin Megami Tensei, and Earthbound. All the code 
+            and art was done by me.
+          </p>
+          <iframe frameborder="0" src="https://itch.io/embed/2007343?bg_color=306082&amp;fg_color=222222&amp;link_color=5fcde4&amp;border_color=4e4c60" width="552" height="167"><a href="https://xett.itch.io/digistrider">DigiStrider by xett</a></iframe>
+        </div>
       </div>
-
-      <div>
-        <h2>Block Battle 🎮</h2>
-        <h3>Tetris React Clone</h3>
-        <p>
-          A personal project that is a classic tetris game made with JavaScript and React.
-          I'm planning on adding more features and modes. You can try it out using the link
-          below.
-        </p>
-        <button onclick="window.open('https://github.com/ttexpie/blockbattle', '_blank')">GitHub</button>
-        <button onclick="window.open('https://ttexpie.github.io/blockbattle/', '_blank')">Play Here!</button>
+  
+      <h1 class="projects-header">Some things I've worked on...</h1>
+      <div class="projects">
+        <div>
+          <h2>Khazaana 📈</h2>
+          <h3>Mobile Investment Tracking App</h3>
+          <p>
+            One of my group projects for a mobile Android app. This app shows a relation
+            between an IFA and their clients, letting them keep track of client assets
+            using realtime stock and crypto pricings APIs.
+          </p>
+          <button onclick="window.open('https://github.com/ttexpie/Khazaana', '_black')">GitHub</button>
+        </div>
+  
+        <div>
+          <h2>Space Game! 🚀</h2>
+          <h3>BEECK</h3>
+          <p>
+            Another group project for a 3D platformer game. This was made using Unity and
+            has various elements like stealth, platforming, and collectables. I developed most
+            of the AI and character controllers for the game.
+          </p>
+          <button onclick="window.open('https://github.gatech.edu/kmettille3/BEECK', '_blank')">GitHub</button>
+          <button onclick="window.open('https://youtu.be/hM0J6oUn-7s', '_blank')">Trailer</button>
+        </div>
+  
+        <div>
+          <h2>Block Battle 🎮</h2>
+          <h3>Tetris React Clone</h3>
+          <p>
+            A personal project that is a classic tetris game made with JavaScript and React.
+            I'm planning on adding more features and modes. You can try it out using the link
+            below.
+          </p>
+          <button onclick="window.open('https://github.com/ttexpie/blockbattle', '_blank')">GitHub</button>
+          <button onclick="window.open('https://ttexpie.github.io/blockbattle/', '_blank')">Play Here!</button>
+        </div>
       </div>
-    </div>
-
-    <div class="skillset">
-      <div>
-        <h1>Skillset 🧠</h1>
-        <ul>
-          <li>Java ☕</li>
-          <li>JavaScript 💻</li>
-          <li>TypeScript 📦</li>
-          <li>React ⚛</li>
-          <li>Angular 🛡</li>
-          <li>C++ ➕</li>
-          <li>C# #️⃣</li>
-          <li>Python 🐍</li>
-          <li>Kotlin 📱</li>
-          <li>AWS 🌴</li>
-          <li>Firebase 🔥</li>
-          <li>Unity 🎮</li>
-        </ul>
+  
+      <div class="skillset">
+        <div>
+          <h1>Skillset 🧠</h1>
+          <ul>
+            <li>Java ☕</li>
+            <li>JavaScript 💻</li>
+            <li>TypeScript 📦</li>
+            <li>React ⚛</li>
+            <li>Angular 🛡</li>
+            <li>C++ ➕</li>
+            <li>C# #️⃣</li>
+            <li>Python 🐍</li>
+            <li>Kotlin 📱</li>
+            <li>AWS 🌴</li>
+            <li>Firebase 🔥</li>
+            <li>Unity 🎮</li>
+            <li>SQL/MySQL 📃</li>
+            <li>Godot 🤖</li>
+            <li>Unreal 🕹️</li>
+          </ul>
+        </div>
       </div>
-    </div>
+    </main>
   </body>
 </html>
