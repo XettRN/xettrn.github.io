@@ -86,7 +86,7 @@ body {
   justify-content: space-evenly;
 }
 .projects div {
-  max-width: 550px;
+  width: 550px;
   margin-bottom: 40px;
   padding: 1em;
   border-radius: 30px;
